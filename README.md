@@ -3,18 +3,36 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
+* [Required software and hardware](#required-software-and-hardware)
+* [IoT VR Platform package](#iot-vr-platform-package)
 * [Setup](#setup)
 * [Contributing to the platform](#contributing-to-the-platform)
 
 ## General info
+
+<img align="left" width="200" src="/Readme/Files/20201030_173803.jpg">
+<img align="left" width="200" src="/Readme/Files/20201030_175023.jpg">
+
 By using VRSimulator platform researchers can connect real and virtual IoT devices, test new IoT devices inside VR environment (and don't even need to buy them!)
 
 [:VRSimulator Webpage:](https://vrsimulator.github.io/)
 	
 ## Technologies
 In the current state of development, IoT VR Platform is used as an extension to [Mixed Reality Toolkit - Quest](https://github.com/provencher/MRTK-Quest) project. 
-Same features are supported on VR IoT Platform as on Mixed Reality Toolkit (https://github.com/microsoft/MixedRealityToolkit-Unity#feature-areas), such as hand tracking and interaction techniques. In addition to that, some extra interaction methods are added inside IoT VR Platform.
+Same features are supported on VR IoT Platform as on Mixed Reality Toolkit (https://github.com/microsoft/MixedRealityToolkit-Unity#feature-areas), such as hand tracking and interaction techniques. In addition to that, some extra interaction methods were added into IoT VR Platform.
 
+<img align="right" width="200" src="/Readme/Files/20201030_175856.jpg">
+<img align="right" width="200" src="/Readme/Files/20201030_180612.jpg">
+
+Connection to real-world IoT devices is performed by REST API calls to [openHAB](https://www.openhab.org/download/) server, which runs either locally on user machine, or remotely on [myopenhab server](http://myopenhab.org/).
+## Required software and hardware:
+1. Unity Version 2019.4.13+
+### Additional software & hardware:
+1. Oculus Quest 1 or 2
+2. OpenHAB (running on local or remote server)
+3. IoT devices
+
+## IoT VR Platform package
 Available items (the list is frequently updated):
 
 | [![Lamp](/Readme/Files/Lamp.png)]() [Light Item](Documentation/Things/Lamp.md) | [![Door](/Readme/Files/Door.png)]() [Door](Documentation/Things/Door.md) | [![WeightScaler](/Readme/Files/WeightScaler.png)]() [Weight Scaler](Documentation/Things/WeightScaler.md) | 
@@ -23,8 +41,19 @@ Available items (the list is frequently updated):
 | [![Camera](/Readme/Files/Camera.png)]() [Camera](Documentation/Things/Camera.md) | [![TV](/Readme/Files/TV.png)]() [TV](Documentation/Things/TV.md) | [![Vacuum Cleaner](/Readme/Files/VacuumCleaner.png)]() [Vacuum Cleaner](Documentation/Things/VacuumCleaner.md) |
 | A camera with a motion sensor connected | A TV translating an image from the camera | A vacuum cleaner thing, which can be docked/undocked and move around the scene |
 
-Connection to real-world IoT devices is performed by REST API calls to [openHAB](https://www.openhab.org/download/) server, which runs either locally on user machine, or remotely on [myopenhab server](http://myopenhab.org/).
 
+<img align="left" width="200" src="/Readme/Files/20201030_181421.jpg">
+<img align="left" width="200" src="/Readme/Files/20201030_182148.jpg">
+
+### IoT VR Package Structure 
+The main part of the package is Server, where classes for the items and things are defined.
+
+Things are Gameobjects added into Unity project which represent either a digital twin of a real IoT device or a purely virtual IoT device. Things potentially provide many functionalities in one.
+
+Items are the parts things consist of: for example, smart light in the room can consist of several lamps and a receiver – each of them as an item.
+	
+Other parts of IoT VR Platform are: resources, prefabs, Thirdparty and scenes.	
+	
 	
 ## Setup
 

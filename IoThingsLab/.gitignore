@@ -1,3 +1,11 @@
+# Download folders listed below as .unitypackage files from the latest release
+
+/Assets/com.tsinghua.iotvrp/Scenes/
+/Assets/com.tsinghua.iotvrp/Thirdparty/
+/Assets/com.tsinghua.iotvrp/Resources/
+/Assets/com.tsinghua.iotvrp/Prefabs/
+
+
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore

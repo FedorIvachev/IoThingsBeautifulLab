@@ -1,6 +1,5 @@
 # IoThingsLab
 
-# v1.0 Update is pending
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
@@ -31,11 +30,11 @@ Connection to real-world IoT devices is performed by REST API calls to [openHAB]
 
 ### VR (Client) part
 1. Open Unity Hub; select Add; choose IoThingsLab folder; select Unity version 2019.4.13+ and Platform = Android; open the project;
-2. Download the following .unitypackages from the latest releases inside github:
-	2.1 IoThingsLab-Resources-V*.unitypackage
-	2.2 IoThingsLab-Thirdparty-V*.unitypackage
-	2.3 IoThingsLab-Scenes-V*.unitypackage
-	2.4 IoThingsLab-Prefabs-V*.unitypackage
+2. Download the following .unitypackages from the [latest releases](https://github.com/VRSimulator/IoThingsLab/releases):
+    * IoThingsLab-Resources-V*.unitypackage
+    * IoThingsLab-Thirdparty-V*.unitypackage
+    * IoThingsLab-Scenes-V*.unitypackage
+    * IoThingsLab-Prefabs-V*.unitypackage
 3. Inside Unity Editor, navigate to Assets->Import Package->Custom Package..., then import the listed packages one by one. Check if Assets/iotvrp/ folder contains the added folders;
 4. Inside the Project window, navigate to Assets/com.tsinghua.iotvrp/Scenes and click on Client.unity scene;
 6. Navigate to File-Build Settings. Inside Scenes in Build, select add open scenes, make sure that only Client scene is added, right click on the other scenes and delete them;

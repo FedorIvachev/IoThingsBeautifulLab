@@ -29,7 +29,7 @@ Connection to real-world IoT devices is performed by REST API calls to [openHAB]
 ## Setup
 
 ### VR (Client) part
-1. Open Unity Hub; select Add; choose IoThingsLab folder; select Unity version 2019.4.13+ and Platform = Android; open the project;
+1. Clone the Repo; open Unity Hub; select Add; choose IoThingsLab folder; select Unity version 2019.4.13+ and Platform = Android; open the project;
 2. Download the following .unitypackages from the [latest releases](https://github.com/VRSimulator/IoThingsLab/releases):
     * IoThingsLab-Resources-V*.unitypackage
     * IoThingsLab-Thirdparty-V*.unitypackage
@@ -37,11 +37,13 @@ Connection to real-world IoT devices is performed by REST API calls to [openHAB]
     * IoThingsLab-Prefabs-V*.unitypackage
 3. Inside Unity Editor, navigate to Assets->Import Package->Custom Package..., then import the listed packages one by one. Check if Assets/iotvrp/ folder contains the added folders;
 4. Inside the Project window, navigate to Assets/com.tsinghua.iotvrp/Scenes and click on Client.unity scene;
-6. Navigate to File-Build Settings. Inside Scenes in Build, select add open scenes, make sure that only Client scene is added, right click on the other scenes and delete them;
-7. To run the platform on Oculus Quest, change Input Profile to Oculus MixedRealityInputSystemProfile inside MixedRealityToolkit - Input, Build and Run the project;
-8. To run the platform on PC and use [VR input simulation](#input-simulation), change the Input Profile to DefaultMixedRealityInputSystemProfile, Click play button;
-9. Have a look at the example items. Combine your own IoT thing from the items inside Unity Editor.
-10. When adding a new thing, follow the [Design rules](https://www.bilibili.com/video/BV1mK4y1f7FL?from=search&seid=2714519419091722950)
+5. In the hierarchy window, select MixedRealityToolkit. Insode the Inspector Window -> Mixed Reality Toolkit, select Oculus MixedRealityToolkit;
+6. On the top of Unity Editor, select Mixed Reality Toolkit -> Utilities -> Oculus -> Integrate Oculus Integration Unity Modules;
+7. Navigate to File-Build Settings. Inside Scenes in Build, select add open scenes, make sure that only Client scene is added, right click on the other scenes and delete them;
+8. To run the platform on Oculus Quest, change Input Profile to Oculus MixedRealityInputSystemProfile inside MixedRealityToolkit - Input, Build and Run the project;
+9. To run the platform on PC and use [VR input simulation](#input-simulation), change the Input Profile to DefaultMixedRealityInputSystemProfile, Click play button;
+10. Have a look at the example items. Combine your own IoT thing from the items inside Unity Editor.
+11. When adding a new thing, follow the [Design rules](https://www.bilibili.com/video/BV1mK4y1f7FL?from=search&seid=2714519419091722950)
 
 ### Input simulation
 [Input simulation service Documentation](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/InputSimulation/InputSimulationService.html)

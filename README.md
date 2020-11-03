@@ -18,7 +18,6 @@ By using VRSimulator platform researchers can connect real and virtual IoT devic
 [:VRSimulator Webpage:](https://vrsimulator.github.io/)
 	
 ## Technologies
-In the current state of development, IoT VR Platform is used as an extension to [Mixed Reality Toolkit - Quest](https://github.com/provencher/MRTK-Quest) project. 
 Same features are supported on VR IoT Platform as on Mixed Reality Toolkit (https://github.com/microsoft/MixedRealityToolkit-Unity#feature-areas), such as hand tracking and interaction techniques. In addition to that, some extra interaction methods were added into IoT VR Platform.
 
 <img align="right" width="200" src="/Readme/Files/20201030_175856.jpg">

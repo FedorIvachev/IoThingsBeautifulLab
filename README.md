@@ -6,6 +6,7 @@
 * [Required software and hardware](#required-software-and-hardware)
 * [IoT VR Platform package](#iot-vr-platform-package)
 * [Setup](#setup)
+* [Known issues](#known-issues)
 * [Contributing to the platform](#contributing-to-the-platform)
 
 ## General info
@@ -91,7 +92,7 @@ Other parts of IoT VR Platform are: resources, prefabs, Thirdparty and scenes.
 
 7.1 To run the platform on Oculus Quest, Build and Run the project;
 
-7.2 To run the platform on PC and use [VR input simulation](#input-simulation), Click play button;
+7.2 To run the platform on PC (Unity editor) and use [VR input simulation](#input-simulation), Click play button;
 ![](/Readme/Files/Screenshot(34).jpg)
 
 8. Have a look at the example items (Tsinghua.IoTVRP->IoTPlayground->Things inside Hierarchy window). Combine your own IoT thing from the items inside Unity Editor.
@@ -105,6 +106,12 @@ Other parts of IoT VR Platform are: resources, prefabs, Thirdparty and scenes.
 1. Install [openHAB](https://www.openhab.org/download/) and run the server.;
 2. Add [REST API](https://www.openhab.org/docs/configuration/restdocs.html) binding;
 3. Follow the instructions for binding your IoT device;
+
+## Known Issues
+1. If when running the platform on PC (Unity Editor) you get the following error:
+![](/Readme/Files/ErrorXRSDK.png)
+Then you need to do step 5 of the setup process: On the top of Unity Editor, select Mixed Reality Toolkit -> Utilities -> Oculus -> Integrate Oculus Integration Unity Modules;
+![](/Readme/Files/Screenshot(33).png)
 
 ## Contributing to the platform
 请分享新想法, 谢谢！

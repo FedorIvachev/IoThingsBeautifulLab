@@ -88,7 +88,7 @@ Other parts of IoT VR Platform are: resources, prefabs, Thirdparty and scenes.
 5. On the top of Unity Editor, select Mixed Reality Toolkit -> Utilities -> Oculus -> Integrate Oculus Integration Unity Modules;
 ![](/Readme/Files/Screenshot(33).png)
 
-6. Navigate to File-Build Settings. Inside Scenes in Build, select add open scenes, make sure that only Client scene is added, right click on the other scenes and delete them;
+6. Navigate to File-Build Settings. Inside Scenes in Build, select add open scenes, make sure that only Client scene is added, right click on the other scenes and delete them. Switch build platform to Android;
 
 7.1 To run the platform on Oculus Quest, Build and Run the project;
 

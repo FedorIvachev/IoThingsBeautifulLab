@@ -1,5 +1,7 @@
 # IoThingsLab
 
+Next release at 9am
+
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)

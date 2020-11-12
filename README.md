@@ -108,4 +108,22 @@ Other parts of IoT VR Platform are: resources, prefabs, Thirdparty and scenes.
 
 8. Have a look at the example items (Tsinghua.IoTVRP->IoTPlayground->Things inside Hierarchy window). Combine your own IoT thing from the items inside Unity Editor.
 
-9. 
+9. When adding a new thing, follow the [Design rules](https://www.bilibili.com/video/BV1mK4y1f7FL?from=search&seid=2714519419091722950)
+
+### Input simulation
+[Input simulation service Documentation](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/InputSimulation/InputSimulationService.html)
+
+### Tutorial on the IoT part and how to run the server on the local machine
+1. Install [openHAB](https://www.openhab.org/download/) and run the server.;
+2. Add [REST API](https://www.openhab.org/docs/configuration/restdocs.html) binding;
+3. Follow the instructions for binding your IoT device;
+
+## Known Issues
+1. If when running the platform on PC (Unity Editor) you get the following error:
+![](/Readme/Files/ErrorXRSDK.png)
+Then you need to do step 5 of the setup process: On the top of Unity Editor, select Mixed Reality Toolkit -> Utilities -> Oculus -> Integrate Oculus Integration Unity Modules;
+![](/Readme/Files/Screenshot(33).png)
+
+## Contributing to the platform
+请分享新想法, 谢谢！
+You can copy the Client Scene and test your ideas before merging the changes:) Thank you!

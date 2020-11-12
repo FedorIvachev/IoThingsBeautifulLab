@@ -1,6 +1,6 @@
 # IoThingsLab
 
-Next release at 9am
+Please check out the new release. Also, feel free to ask me questions on WeChat, feedback is very important.
 
 ## Table of contents
 * [General info](#general-info)

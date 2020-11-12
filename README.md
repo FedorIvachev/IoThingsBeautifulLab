@@ -43,6 +43,12 @@ Available items (the list is frequently updated):
 | [![Camera](/Readme/Files/Camera.png)]() [Camera](Documentation/Things/Camera.md) | [![TV](/Readme/Files/TV.png)]() [TV](Documentation/Things/TV.md) | [![Vacuum Cleaner](/Readme/Files/VacuumCleaner.png)]() [Vacuum Cleaner](Documentation/Things/VacuumCleaner.md) |
 | A camera with a motion sensor connected | A TV translating an image from the camera | A vacuum cleaner thing, which can be docked/undocked and move around the scene |
 
+### Gesture recognizer
+
+GestureRecognizerItem.cs item class enables usage of user-defined gestures. In the example, the Lamp toggles when Index finger tips pushed together.
+
+
+
 ### Thing constructor 
 
 In the Client scene you can find a GameObject called ThingContrustructor. Add up 6 item prefabs into it, and then create your own thing using the Control panel GameObject. You can instantiate new items, move them around the scene and even edit them (in the next update). Save the newly created thing as a prefab using Unity Editor (in Play Mode).  

@@ -1,6 +1,6 @@
 # IoThingsLab
 
-Please check out the new release. Also, feel free to ask me questions on WeChat, feedback is very important.
+The previous version of VRSimulator for IoT
 
 ## Table of contents
 * [General info](#general-info)

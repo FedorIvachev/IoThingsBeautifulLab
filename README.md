@@ -1,6 +1,7 @@
 # IoThingsLab
 
 The previous version of VRSimulator for IoT
+[New Version](https://github.com/VRSimulator/IoThingsLab)
 
 ## Table of contents
 * [General info](#general-info)
